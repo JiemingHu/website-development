@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>comp6780 assignment by u5841919</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+<header>
+  <div class="row">
+    <h1 class="col-sm-1"><img src="Images/koala.png"></h1>
+       <!--Audio play-->
+    <audio autoplay loop>
+    <source src="we are the world.mp3">
+    </audio> 
+    <nav class="col-sm-6 text-left">
+      <p><font size="6" ><a href="home.html">Home</a></font></p>
+      <p><font size="6"><a href="about.html">About</a></font></p>
+      <p><font size="6"><a href="product.html">Categories</a></font></p>
+      <p><font size="6"><a href="#.html">Discount</a></font></p>
+      <p><font size="6"><a href="contact.html">Contact</a></font></p>
+      </nav>
+  </div>
+  </header>
+  <h3>Contact Form</h3>
+
+<div class="contact">
+  <form enctype="text/plain" 
+     action="mailto:u5841919@anu.edu.au">
+ <!-- make the form real work by using email -->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="china">China</option>
+    </select>
+
+    <label for="subject">What product would you like or any feedback for  this website:</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4"><a href="condition.html">Terms & Conditions</a></p>
+    <ul class="col-sm-8">
+    <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>
+    </ul>
+    </div>
+  </footer>
+</body>
+</html>
